@@ -1,6 +1,6 @@
 :root {
     --lato: 'Lato', sans-serif;
-    --alegreya: 'Alegreya', serif;
+    --alegreya: 'Open Sans', sans-serif;
     --white: rgb(255, 255, 255);
     --gray-soft: rgba(235, 232, 232, 0.719);
     --gray-medium: rgb(149, 148, 148);
@@ -209,7 +209,7 @@ img {
 }
 
 .icons p {
-    text-align: justify;
+    text-align: center;
     margin-bottom: 20px;
     color: var(--gray-dark);
 }
