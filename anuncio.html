@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienes raices</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
@@ -13,59 +14,62 @@
 </head>
 
 <body>
-    <header class="site-header ">
-        <div class="contenedor contenido-header">
-            <div class="barra">
-                <a href="/">
+    <header class="header-container">
+        <div class="container-header container">
+            <div class="bars">
+                <a href="/" class="logo">
                     <img src="img/logo.svg" alt="Imagen de logo">
                 </a>
-                <div class="movile-menu">
-                    <a href="#navegacion">
-                        <img src="img/barras.svg" alt="barra">
-                    </a>
+                <div class="mobile-menu">
+                    <img src="img/barras.svg" alt="barra">
                 </div>
 
-                <nav class="navegacion" id="navegacion">
+                <nav class="navegation to-show">
                     <a href="nosotros.html">Nosotros</a>
                     <a href="anuncios.html">Anuncios</a>
                     <a href="blog.html">Blog</a>
                     <a href="contacto.html">Contacto</a>
                 </nav>
             </div>
-
-
         </div>
         <!--contenedor-->
     </header>
 
-    <h1 class="fw-300 central-texto">
+    <h1 class="center-text">
         Casa en Venta Frente al Bosque
     </h1>
     <img src="img/destacada.jpg" alt="">
 
     <main class="contenedor seccion contenido-centrado">
-        <div class="resumen-propiedad">
-            <p class="precio"> $3.000.000</p>
-            <ul class="iconos-caracteristicas">
-                <li><img src="img/icono_wc.svg" alt="icono wc"></li>
-                <p>3</p>
-                <li><img src="img/icono_estacionamiento.svg" alt="icono estacionamiento"></li>
-                <p>3</p>
-                <li><img src="img/icono_dormitorio.svg" alt="icono dormitorio"></li>
-                <p>4</p>
+        <div class="contents-advert container">
+
+            <p class="price">$3,000,000</p>
+            <ul class="icons-characteristics">
+                <li><span><i class="fas fa-bath"></i></span> <br>
+                    <p>3</p>
+                </li>
+
+                <li><span><i class="fas fa-car"></i></span> <br>
+                    <p>3</p>
+                </li>
+
+                <li><span><i class="fas fa-couch"></i></i></span> <br>
+                    <p>3</p>
+                </li>
+
             </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sed eligendi quidem nobis suscipit, cupiditate accusantium fugiat maiores, ratione nisi, libero rem? Quidem corporis modi sit voluptatibus doloremque quo voluptates!Lorem
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat quos odit voluptates debitis reiciendis vel, itaque harum unde sunt accusamus ipsam nisi! Rem ex, repellendus adipisci minima deserunt harum corporis?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione libero distinctio exercitationem autem laudantium. Cupiditate, deserunt animi eligendi porro maiores pariatur! Ab debitis doloribus animi in, eveniet vero id consectetur?</p>
 
         </div>
         <!--resumen propiedad-->
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sed eligendi quidem nobis suscipit, cupiditate accusantium fugiat maiores, ratione nisi, libero rem? Quidem corporis modi sit voluptatibus doloremque quo voluptates!Lorem
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat quos odit voluptates debitis reiciendis vel, itaque harum unde sunt accusamus ipsam nisi! Rem ex, repellendus adipisci minima deserunt harum corporis?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione libero distinctio exercitationem autem laudantium. Cupiditate, deserunt animi eligendi porro maiores pariatur! Ab debitis doloribus animi in, eveniet vero id consectetur?</p>
     </main>
 
 
-    <footer class="site-footer seccion">
-        <div class="contenedor contenedor-footer">
-            <nav class="navegacion">
+    <footer class="site-footer">
+        <div class="container-footer">
+            <nav class="navegation">
                 <a href="nosotros.html">Nosotros</a>
                 <a href="anuncios.html">Anuncios</a>
                 <a href="blog.html">Blog</a>

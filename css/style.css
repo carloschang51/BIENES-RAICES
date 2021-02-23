@@ -24,7 +24,6 @@ html {
 body {
     font-family: var(--alegreya);
     line-height: 2;
-    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
 
@@ -96,6 +95,7 @@ img {
     padding: 10px 40px;
     margin: 30px 0;
     color: white;
+    border: none;
 }
 
 .button-yellow {
@@ -115,6 +115,11 @@ img {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.center-text {
+    text-align: center;
+    padding: 30px 0;
 }
 
 
@@ -178,10 +183,10 @@ img {
 
 
 /*===================================
-                ABOULT 
+                ABOUT 
  ====================================*/
 
-.icons-aboult {
+.icons-about {
     text-align: center;
 }
 
@@ -215,8 +220,8 @@ img {
  ====================================*/
 
 .site-main {
-    background-color: white;
     padding: 5px 0;
+    background-color: var(--white);
 }
 
 .container-advert {
@@ -400,6 +405,7 @@ img {
 .site-footer {
     background-color: var(--black-medium);
     margin-top: 30px;
+    padding: 10px 0;
 }
 
 .container-footer .navegation {
@@ -410,4 +416,125 @@ img {
     text-align: center;
     color: var(--white);
     padding: 10px 0;
+}
+
+
+/*===================WEBSITE ABOUT===============*/
+
+
+/*===================================
+          HEADER  
+ ====================================*/
+
+.header-container {
+    background-color: VAR(--black-medium);
+    padding: 20px 0;
+}
+
+
+/*===================================
+          HEADER  about
+ ====================================*/
+
+.site-About {
+    margin-bottom: 50px;
+}
+
+.site-About h1 {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.content-about {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.text-about blockquote {
+    font-size: 2rem;
+    color: var(--yellow);
+}
+
+.text-about p {
+    color: var(--gray-dark);
+    text-align: justify;
+}
+
+
+/*===================WEBSITE CONTACT===============*/
+
+
+/*===================================
+         CONTACT
+ ====================================*/
+
+.contact-tittle h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form fieldset {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form fieldset legend {
+    font-size: 2.2rem;
+    color: var(--black-medium);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+form fieldset label {
+    font-size: 1.8rem;
+    color: var(--gray-dark);
+    font-weight: 700;
+}
+
+form fieldset p {
+    font-size: 1.8rem;
+    color: var(--gray-dark);
+}
+
+form fieldset input,
+form fieldset textarea,
+form fieldset select {
+    font-size: 1.8rem;
+    padding: 10px 15px;
+    background-color: var(--gray-medium);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.forma-contacto {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+
+/*===================WEBSITE ENTRY===============*/
+
+
+/*===================================
+         ENTRY MAIN
+ ====================================*/
+
+.container-tittle-guide h1 {
+    text-align: center;
+    padding: 30px 10px;
+    text-transform: capitalize;
+}
+
+.guide-entry span {
+    color: var(--yellow);
 }
