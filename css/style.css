@@ -139,10 +139,6 @@ img {
     text-align: center;
 }
 
-.logo img {
-    padding-left: 10px;
-}
-
 .mobile-menu {
     display: none;
 }
@@ -158,18 +154,22 @@ img {
 } */
 
 .navegation {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .navegation a {
     color: var(--white);
     text-decoration: none;
+    margin-right: 15px;
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 700;
     transition: all .3s ease;
+}
+
+.navegation a:last-of-type {
+    margin-right: 0;
 }
 
 .navegation a:hover {
@@ -304,7 +304,7 @@ img {
 
 .site-blog h3 {
     text-align: center;
-    padding: 30px;
+    padding: 50px 0;
 }
 
 .entry-blog {
@@ -367,7 +367,7 @@ img {
 
 .site-testimonials h3 {
     color: var(--black-medium);
-    padding: 30px 0;
+    padding: 50px 0;
 }
 
 .site-testimonials p {
@@ -378,10 +378,11 @@ img {
 
 .testimonials {
     background-color: var(--green);
-    padding: 20px;
+    padding: 50px 10px;
     max-width: 400px;
     margin: 0 auto;
     border-radius: 10px;
+    line-height: 3;
 }
 
 .testimonials blockquote span {
@@ -474,11 +475,6 @@ img {
     padding: 30px;
 }
 
-form {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
 form fieldset {
     display: flex;
     flex-direction: column;
@@ -519,6 +515,10 @@ form fieldset select {
     display: flex;
     flex-direction: column;
     padding: 10px 0;
+}
+
+form .submit {
+    text-align: center;
 }
 
 

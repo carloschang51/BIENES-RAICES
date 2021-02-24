@@ -1,0 +1,123 @@
+/*===================================
+                HEADER 
+ ====================================*/
+
+.bars {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.site-header .container-header h1 {
+    margin-top: 300px;
+}
+
+
+/*===================================
+          SECTION ABOUT 
+ ====================================*/
+
+.icons-about {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.icons {
+    flex: 0 0 calc(33.3% - 1rem);
+}
+
+.icons-about .icons {
+    border-bottom: none;
+}
+
+
+/*===================================
+              MAIN 
+ ====================================*/
+
+.site-main .container-advert {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.advert {
+    flex: 0 0 calc(33.3% - 1rem);
+}
+
+.watch-all {
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+
+/*===================================
+         SECTION HERO 
+ ====================================*/
+
+.img-content {
+    text-align: center;
+}
+
+.container-hero-Contact {
+    padding: 100px 0;
+}
+
+
+/*===================================
+         SECTION BLOG
+ ====================================*/
+
+.container-blog-testimonials {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-blog .entry-blog {
+    max-width: 1200px;
+}
+
+.site-blog {
+    flex: 0 0 calc(66.6% - 1rem);
+}
+
+.entry-blog {
+    display: flex;
+}
+
+.img-blog {
+    flex: 0 0 calc(33.3% - 1rem);
+    margin-right: 10px;
+}
+
+.text-entry {
+    flex: 0 0 calc(66.6% - 1rem);
+}
+
+.site-testimonials {
+    flex: 0 0 calc(33.3% - 1rem);
+}
+
+
+/*===================================
+         WEBSITE ABOUT
+ ====================================*/
+
+.site-About .content-about {
+    max-width: 1200px;
+}
+
+
+/*===================================
+         WEBSITE CONTACT
+ ====================================*/
+
+.site-contact form fieldset {
+    max-width: 600px;
+}
+
+form .submit {
+    text-align: center;
+}
